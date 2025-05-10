@@ -1,5 +1,5 @@
 # Smart Beta Strategy with ML-Driven Risk Management  
-
+![Description of image](Strategy.png)
 ## Overview  
 A systematic strategy combining momentum/reversion signals, LSTM volatility prediction, and Markowitz optimization.  
 
@@ -14,4 +14,4 @@ A systematic strategy combining momentum/reversion signals, LSTM volatility pred
 git clone https://github.com/JuhiGola21/smart-beta-strategy-ml  
 pip install -r requirements.txt
 
-![Description of image](Strategy.png)
+

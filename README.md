@@ -14,4 +14,4 @@ A systematic strategy combining momentum/reversion signals, LSTM volatility pred
 git clone https://github.com/JuhiGola21/smart-beta-strategy-ml  
 pip install -r requirements.txt
 
-[Strategy plot](Strategy.png)
+![Strategy plot](Strategy.png)

@@ -1,0 +1,63 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+venv/
+.venv/
+.python-version
+
+# --- Jupyter/Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# --- Data & Outputs ---
+data/raw/           # Raw data (e.g., CSV files from Yahoo Finance)
+*.csv               # Exclude CSV files (uncomment if not tracking data)
+*.h5
+*.pkl
+*.parquet
+outputs/            # Generated plots/results (uncomment if not tracking)
+
+# --- Environment & Secrets ---
+.env
+.env.local
+secrets.yml
+credentials.json
+*.key
+*.pem
+
+# --- IDE & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# --- OS & Temp Files ---
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# --- Machine Learning/Models ---
+logs/
+checkpoints/
+*.tflite
+*.pb
+*.pt
+
+# --- Testing & Coverage ---
+.coverage
+.pytest_cache/
+htmlcov/
+
+# --- Virtual Environments ---
+pip-selfcheck.json
+Pipfile
+Pipfile.lock
+poetry.lock
